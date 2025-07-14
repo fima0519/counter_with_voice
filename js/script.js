@@ -21,3 +21,5 @@ speakBtn.addEventListener("click", function () {
     countUp();
   }, 1500);
 });
+
+
