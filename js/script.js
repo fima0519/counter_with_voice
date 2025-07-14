@@ -9,7 +9,7 @@ function countUp() {
   let utterance = new SpeechSynthesisUtterance(counter.innerText);
   speechSynthesis.speak(utterance);
 
-  if (count == counter.dataset.number) {
+  if (count >= counter.dataset.number) {
     clearInterval(stop);
     let utterance = new SpeechSynthesisUtterance("Finished!");
     speechSynthesis.speak(utterance);
