@@ -1,4 +1,6 @@
 let counter = document.querySelector(".counter");
+let btnSpeaker = document.getElementById("btnSpeaker");
+
 let count = 0;
 
 function countUp() {
@@ -17,3 +19,7 @@ function countUp() {
 let stop = setInterval(function () {
   countUp();
 }, 1500);
+
+btnSpeaker.addEventListener("click",function(){
+    countUp();l
+})
