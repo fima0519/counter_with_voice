@@ -17,6 +17,7 @@ function countUp() {
 }
 
 speakBtn.addEventListener("click", function () {
+  clearInterval(stop);
   stop = setInterval(function () {
     countUp();
   }, 1500);
