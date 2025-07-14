@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter with Voice</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="">
+    <div class="py-25">
+      <div class="max-w-[1170px] m-auto flex justify-center">
+        <div class="">
+          <!-- From Uiverse.io by shivam_7937 -->
+          <div
+            class="relative flex items-center justify-center gap-4 group mt-3 w-70"
+          >
+            <div
+              class="absolute inset-0 duration-1000 opacity-60 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"
+            ></div>
+            <div
+              class="relative drop-shadow-xl w-68 h-94 overflow-hidden rounded-xl bg-[#3d3c3d]"
+            >
+              <div
+                class="absolute flex items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]"
+              >
+                <div
+                  class="counter z-10 flex items-center text-9xl text-amber-600 [text-shadow:_2px_2px_#fff,_1px_2px_#fff]"
+                  data-number="10"
+                  data-speed="1000"
+                ></div>
+              </div>
+              <div
+                class="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2"
+              ></div>
+            </div>
+          </div>
+
+          <!-- From Uiverse.io by 05akalan57 -->
+
+          <!-- Button to trigger speech -->
+          <!-- From Uiverse.io by shivam_7937 -->
+          <div class="w-68 m-auto flex justify-center">
+            <div
+              class="relative inline-flex items-center justify-center gap-4 group mt-5 w-50"
+            >
+              <div
+                class="absolute inset-0 duration-1000 opacity-60 transitiona-all rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"
+              ></div>
+              <a
+                id="speakBtn"
+                role="button"
+                class="group relative inline-flex items-center justify-center text-base rounded-xl bg-gray-900 px-8 py-3 font-semibold text-white transition-all duration-200 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 hover:shadow-gray-600/30"
+                title="payment"
+                href="#"
+                >PLAY COUNTER
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
