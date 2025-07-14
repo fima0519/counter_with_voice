@@ -21,5 +21,5 @@ let stop = setInterval(function () {
 }, 1500);
 
 btnSpeaker.addEventListener("click",function(){
-    countUp();l
+    countUp();
 })
